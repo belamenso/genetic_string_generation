@@ -1,11 +1,11 @@
 import java.util.Random;
 
 public class DNA {
-    static final double mutationRate = 0.0027;
+    private static final double mutationRate = 0.004;
 
     private Random random;
 
-    private char genes[];
+    private char[] genes;
     private String target;
 
     private char randomChar() {
